@@ -37,10 +37,10 @@
     margin-right: 50px;
 }
 
-.navigation__list :hover {
+.navigation__list:hover {
     color: var(--active-color);
 }
 
-.navigation__list :focus {
+.navigation__list:focus {
     color: var(--active-color);
 }

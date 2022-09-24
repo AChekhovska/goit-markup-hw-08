@@ -26,6 +26,18 @@
   --transition-dur-and-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.buttons-set, .clients-logo-list, .overlay-activity, .section-benefits__antenna-box,
+.section-benefits__clock-box,
+.section-benefits__diagram-box,
+.section-benefits__astronaut-box, .modal-form-check-field, .footer-social-links, .social-link-instagram,
+.social-link-twitter,
+.social-link-facebook,
+.social-link-linkedin, .social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .current {
   color: var(--active-color);
 }
@@ -248,7 +260,8 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: var(--active-color);
-  transition: background-color var(--transition-dur-and-func);  
+  transition: background-color var(--transition-dur-and-func);
+  cursor: pointer;
 }
 .footer-button:hover, .footer-button:focus {
   background-color: var(--btn-order-active-background-color);
@@ -271,7 +284,6 @@ body {
   border-radius: 4px;
   transition: background-color var(--transition-dur-and-func);
   border: none;
-  cursor: pointer;
 }
 .modal-button-submit:hover, .modal-button-submit:focus {
   background-color: var(--btn-order-active-background-color);
@@ -282,9 +294,6 @@ body {
 }
 
 .social-links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-top: 16px;
 }
 
@@ -292,9 +301,6 @@ body {
 .social-link-twitter,
 .social-link-facebook,
 .social-link-linkedin {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   height: 44px;
   width: 44px;
   border-radius: 50%;
@@ -352,9 +358,6 @@ body {
 }
 
 .footer-social-links {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 44px;
   height: 44px;
   border-radius: 50px;
@@ -544,9 +547,6 @@ body {
 }
 
 .modal-form-check-field {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin-bottom: 30px;
   cursor: pointer;
 }
@@ -585,6 +585,9 @@ body {
 
 .page-header {
   border-bottom: 1px solid var(--border-header-color);
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .page-header__container {
@@ -660,6 +663,9 @@ body {
 
 .section-order {
   display: block;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1600px;
   padding-top: 200px;
   padding-bottom: 200px;
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero.jpg");
@@ -680,12 +686,9 @@ body {
 .section-benefits__clock-box,
 .section-benefits__diagram-box,
 .section-benefits__astronaut-box {
-  display: flex;
   background-color: var(--team-background-color);
   width: 270px;
   height: 120px;
-  justify-content: center;
-  align-items: center;
   margin-bottom: 30px;
   border-radius: 4px;
 }
@@ -744,9 +747,6 @@ body {
 }
 
 .overlay-activity {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: absolute;
   width: 100%;
   color: var(--accent-text-color);
@@ -823,12 +823,6 @@ body {
   margin-bottom: 50px;
 }
 
-.clients-logo-list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .clients-logo {
   display: flex;
   justify-content: center;
@@ -864,6 +858,9 @@ body {
   background-color: var(--secondary-background-color);
   padding-top: 60px;
   padding-bottom: 60px;
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .general {
@@ -925,9 +922,6 @@ body {
 }
 
 .buttons-set {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin-bottom: 50px;
   gap: 8px;
 }
@@ -1027,4 +1021,7 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--secondary-background-color);
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
 }/*# sourceMappingURL=main.css.map */
