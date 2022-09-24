@@ -1,0 +1,107 @@
+.social-links {
+    @extend %alignment;
+    margin-top: 16px;
+}
+
+.social-link-instagram,
+.social-link-twitter,
+.social-link-facebook,
+.social-link-linkedin {
+    @extend %alignment;
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    background-color: var(--main-background-color);
+    color: var(--social-links-color);
+    transition: background-color var(--transition-dur-and-func), fill var(--transition-dur-and-func);
+}
+
+.social-link-item {
+    margin-right: 10px;
+}
+
+.social-link-instagram:hover,
+.social-link-twitter:hover,
+.social-link-facebook:hover,
+.social-link-linkedin:hover {
+    background-color: var(--active-color);
+}
+
+.social-link-instagram:hover .icon-instagram,
+.social-link-twitter:hover .icon-twitter,
+.social-link-facebook:hover .icon-facebook,
+.social-link-linkedin:hover .icon-linkedin {
+    fill: var(--accent-text-color);
+}
+
+.social-link-instagram:focus,
+.social-link-twitter:focus,
+.social-link-facebook:focus,
+.social-link-linkedin:focus {
+    background-color: var(--active-color);
+}
+
+.social-link-instagram:focus .icon-instagram,
+.social-link-twitter:focus .icon-twitter,
+.social-link-facebook:focus .icon-facebook,
+.social-link-linkedin:focus .icon-linked{
+    fill: var(--active-color);
+    fill: var(--accent-text-color);
+}
+
+.icon-instagram,
+.icon-twitter,
+.icon-facebook,
+.icon-linkedin {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}
+
+.footer-social-list {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.footer-social-links {
+    @extend %alignment;
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: var(--accent-text-color);
+    transition: background-color var(--transition-dur-and-func), fill var(--transition-dur-and-func);
+
+    &:hover {
+    background-color: var(--active-color);
+    }
+
+    &:hover .icon-instagram-footer,
+    &:hover .icon-twitter-footer,
+    &:hover .icon-facebook-footer,
+    &:hover .icon-linkedin-footer {
+    fill: var(--accent-text-color);
+    }
+
+    &:focus{
+    background-color: var(--active-color);
+    }
+
+    &:focus .icon-instagram-footer,
+    &:focus .icon-twitter-footer,
+    &:focus .icon-facebook-footer,
+    &:focus .icon-linkedin-footer {
+    background-color: var(--active-color);
+    fill: var(--accent-text-color);
+}
+}
+
+.icon-instagram-footer,
+.icon-twitter-footer,
+.icon-facebook-footer,
+.icon-linkedin-footer {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}

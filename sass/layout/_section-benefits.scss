@@ -1,0 +1,46 @@
+.section-benefits__list {
+    display: flex;
+    gap: 30px;
+}
+
+.section-benefits__item {
+    flex-basis: calc((100% - 3 * 30px) / 4);
+}
+
+.section-benefits__antenna-box,
+.section-benefits__clock-box,
+.section-benefits__diagram-box,
+.section-benefits__astronaut-box {
+    @extend %alignment;
+    background-color: var(--team-background-color);
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+
+.section-benefits__icon-antenna,
+.section-benefits__icon-clock,
+.section-benefits__icon-diagram,
+.section-benefits__icon-astronaut {
+    width: 70px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-benefits__title {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.17;
+    text-align: left;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.section-benefits__description {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    text-align: left;
+}

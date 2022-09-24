@@ -1,0 +1,26 @@
+.section-order__title {
+    color: var(--accent-text-color);
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    width: 696px;
+    margin-right: 278px;
+    margin-left: 278px;
+}
+
+.section-order {
+    background-color: var(--secondary-background-color)
+}
+
+.section-order {
+    display: block;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero.jpg");
+    background-size: cover;
+    background-color: var(--section-order-background-color)
+}
