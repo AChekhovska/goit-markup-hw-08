@@ -46,11 +46,44 @@
                         +38 096 111 11
                         11</a></li>
             </ul>
+            <button type="button" class="header__button js-open-menu">
+                <svg aria-label="Іконка меню" class="icon-menu">
+                    <use href="./images/sprite.svg#icon-menu"></use>
+                </svg>
+            </button>
+        </div>
+        <div class="mobile-menu js-menu-container">
+            <div class="container mobile-menu__container">
+                <button class="mobile-menu__close-button js-close-menu">
+                    <svg aria-label="Хрестик закриття форми" class="icon-close" width="18" height="18">
+                        <use href="./images/sprite.svg#icon-close"></use>
+                    </svg>
+                </button>
+                <ul class="mobile-menu__navigation">
+                    <li class="mobile-menu__items list"><a href="./index.html"
+                            class="mobile-menu__chapter link">Студія</a></li>
+                    <li class="mobile-menu__items list"><a href="./portfolio.html"
+                            class="mobile-menu__chapter link">Портфоліо</a></li>
+                    <li class="mobile-menu__items list"><a href="#" class="mobile-menu__chapter link">Контакти</a></li>
+                </ul>
+            </nav>
+
+            <ul class="mobile-menu__contacts">
+                <li class="mobile-menu__items-phone list"><a href="tel:+380961111111" class="mobile-menu__contacts-phone link">+38 096 111 11
+                    11</a></li>
+                <li class="mobile-menu__items-mail list"><a href="mailto:info@devstudio.com" class="mobile-menu__contacts-mail link">info@devstudio.com</a></li>
+             <ul class="mobile-menu__networks-list">
+                <li class="mobile-menu__networks list"><a href="#" class="mobile-menu__network-link link">Instagram</a></li>
+                <li class="mobile-menu__networks list"><a href="#" class="mobile-menu__network-link link">Twitter</a></li>
+                <li class="mobile-menu__networks list"><a href="#" class="mobile-menu__network-link link">Facebook</a></li>
+                <li class="mobile-menu__networks list"><a href="#" class="mobile-menu__network-link link">LinkedIn</a></li>
+             </ul>   
+            </div>
         </div>
     </header>
 
     <main>
-        <section class="section-order">
+        <!-- <section class="section-order">
             <div class="container">
                 <h1 class="section-order__title">Ефективні рішення для вашого бізнесу</h1>
                 <button type="button" class="section-order__button page-buttons" data-modal-open>Замовити послугу</button>
@@ -445,7 +478,8 @@
             </form>
         </div>
     </div>
-    <script src="./js/modal.js"></script>
+    <script src="./js/modal.js"></script> -->
+    <script src="./js/mobile-menu.js"></script>
 </body>
 
 </html>

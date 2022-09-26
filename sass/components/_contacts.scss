@@ -1,62 +1,66 @@
-.contacts {
-    display: flex;  
+.contacts{
+    display: none;
 }
 
-.contacts__link {
-    display: flex;
-    align-items: center;
-    color: var(--primary-text-color);
-    fill: currentColor;
-    font-size: 14px;
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    text-align: left;
-    text-decoration: none;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    transition: color var(--transition-dur-and-func);
-}
+// .contacts {
+//     display: flex;  
+// }
 
-.contacts__list {
-    display: flex;
-    align-items: center;
-    margin-right: 48px;
+// .contacts__link {
+//     display: flex;
+//     align-items: center;
+//     color: var(--primary-text-color);
+//     fill: currentColor;
+//     font-size: 14px;
+//     font-weight: 500;
+//     line-height: 1.14;
+//     letter-spacing: 0.02em;
+//     text-align: left;
+//     text-decoration: none;
+//     padding-top: 32px;
+//     padding-bottom: 32px;
+//     transition: color var(--transition-dur-and-func);
+// }
 
-    & :hover {
-        color: var(--active-color);
-    }
+// .contacts__list {
+//     display: flex;
+//     align-items: center;
+//     margin-right: 48px;
+
+//     & :hover {
+//         color: var(--active-color);
+//     }
     
-    & :focus {
-        color: var(--active-color);
-    }
-}
+//     & :focus {
+//         color: var(--active-color);
+//     }
+// }
 
-.contacts__icon-mail {
-    display: inline-block;
-    width: 16px;
-    height: 12px;
-    margin-right: 10px;
-    transition: fill var(--transition-dur-and-func);
+// .contacts__icon-mail {
+//     display: inline-block;
+//     width: 16px;
+//     height: 12px;
+//     margin-right: 10px;
+//     transition: fill var(--transition-dur-and-func);
 
-    & :hover,
-    & :focus {
-    fill: var(--active-color);
-    }
-}
+//     & :hover,
+//     & :focus {
+//     fill: var(--active-color);
+//     }
+// }
 
-.contacts__icon-phone {
-    display: inline-block;
-    width: 10px;
-    height: 16px;
-    margin-right: 10px;
-    transition: fill var(--transition-dur-and-func);
+// .contacts__icon-phone {
+//     display: inline-block;
+//     width: 10px;
+//     height: 16px;
+//     margin-right: 10px;
+//     transition: fill var(--transition-dur-and-func);
 
-    & :hover,
-    & :focus {
-    fill: var(--active-color);
-    }
-}
+//     & :hover,
+//     & :focus {
+//     fill: var(--active-color);
+//     }
+// }
 
 .footer-list-connection {
     color: var(--accent-text-color);
