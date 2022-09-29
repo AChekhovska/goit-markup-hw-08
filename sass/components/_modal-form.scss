@@ -154,3 +154,19 @@ line-height: 1.7;
 .conditions {
     color: var(--active-color);
 }
+
+@media screen and (max-width:767px) {
+    .agreement{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.17;
+        }
+}
+
+@media screen and (min-width:768px){
+    .agreement{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 1.17;
+        }
+}

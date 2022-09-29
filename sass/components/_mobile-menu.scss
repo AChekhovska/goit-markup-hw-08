@@ -1,7 +1,8 @@
+
+@media screen and (max-width:767px){
 .mobile-menu__container{
     position: relative;
 }
-
 
 .mobile-menu{
     position: fixed;
@@ -99,9 +100,9 @@ margin-bottom: 32px;
 
 .mobile-menu__network-link{
     color: var(--active-color);
-    font-size: 40px;
+    font-size: 18px;
     font-weight: 500;
-    line-height: 1.18;
+    line-height: 1.22;
     letter-spacing: 0.02em;
     text-align: center;
     transition: color var(--transition-dur-and-func);
@@ -133,4 +134,11 @@ margin-bottom: 32px;
 
 .mobile-menu__close-button:focus{
     fill: var(--active-color);
+}
+}
+
+@media screen and (min-width:768px){
+    .mobile-menu{
+        display: none;
+    }
 }
