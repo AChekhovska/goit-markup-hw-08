@@ -83,7 +83,7 @@
     </header>
 
     <main>     
-        <section class="section-order">
+        <section class="section-order section">
             <div class="container">
                 <h1 class="section-order__title">Ефективні рішення для вашого бізнесу</h1>
                 <button type="button" class="section-order__button page-buttons" data-modal-open>Замовити послугу</button>
@@ -95,6 +95,7 @@
                 <h2 class="visually-hidden">Наші особливості</h2>
                 <ul class="section-benefits__list">
                     <li class="section-benefits__item list">
+                        <div class="section-benefits__benefit-box">
                         <div class="section-benefits__antenna-box">
                             <svg aria-label="Антена" class="section-benefits__icon-antenna">
                                 <use href="./images/sprite.svg#icon-antenna"></use>
@@ -103,8 +104,10 @@
                         <h3 class="section-benefits__title titles">Увага до деталей</h3>
                         <p class="section-benefits__description">Ідейні міркування, і навіть початок повсякденної роботи з формування
                             позиції.</p>
+                        </div>
                     </li>
                     <li class="section-benefits__item list">
+                        <div class="section-benefits__benefit-box">
                         <div class="section-benefits__clock-box">
                             <svg aria-label="Годинник" class="section-benefits__icon-clock">
                                 <use href="./images/sprite.svg#icon-clock"></use>
@@ -113,8 +116,10 @@
                         <h3 class="section-benefits__title titles">Пунктуальність</h3>
                         <p class="section-benefits__description">Завдання організації, особливо рамки і місце навчання кадрів тягне у
                             себе.</p>
+                        </div>
                     </li>
                     <li class="section-benefits__item list">
+                        <div class="section-benefits__benefit-box">
                         <div class="section-benefits__diagram-box">
                             <svg aria-label="Діаграма" class="section-benefits__icon-diagram">
                                 <use href="./images/sprite.svg#icon-diagram"></use>
@@ -122,8 +127,10 @@
                         </div>
                         <h3 class="section-benefits__title titles">Планування</h3>
                         <p class="section-benefits__description">Так само консультація з широким активом значною мірою зумовлює.</p>
+                    </div>
                     </li>
                     <li class="section-benefits__item list">
+                        <div class="section-benefits__benefit-box">
                         <div class="section-benefits__astronaut-box">
                             <svg aria-label="Астронавт" class="section-benefits__icon-astronaut">
                                 <use href="./images/sprite.svg#icon-astronaut"></use>
@@ -132,6 +139,7 @@
                         <h3 class="section-benefits__title titles">Сучасні технології</h3>
                         <p class="section-benefits__description">Значимість цих проблем настільки очевидна, що реалізація планових
                             завдань.</p>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -141,14 +149,29 @@
             <div class="container">
                 <h2 class="titles activity">Чим ми займаємося</h2>
                 <ul class="types-activity">
-                    <li class="list cards-activity"><img src="images/pic.jpg" alt="Набір тексту на клавіатурі"
+                    <li class="list cards-activity">
+                        <picture>
+                            <source
+                            srcset="./images/laptop_desktop.webp 1x, ./images/laptop_desktop@2x.webp 2x"
+                            media="(min-width:1200px)"
+                            type="image/webp"/>
+                            <source
+                            srcset="./images/laptop_desktop.jpg 1x, ./images/ihor_tablet@2x.jpg 2x"
+                            media="(min-width:1200px)"/>
+                            <img src="images/pic.jpg" alt="Набір тексту на клавіатурі"
                             width="370" height="294" />
+                        </picture>                        
                         <div class="overlay-activity-box">
                             <p class="overlay-activity">Десктопні додатки</p>
                         </div>
                     </li>
-                    <li class="list cards-activity"><img src="images/pic2.jpg"
+                    <li class="list cards-activity">
+                        <picture>
+                            <source
+                            srcset=""/>
+                            <img src="images/pic2.jpg"
                             alt="Зображення мобільного телефона на екрані ноутбука" width="370" height="294" />
+                        </picture>
                         <div class="overlay-activity-box">
                             <p class="overlay-activity">Мобільні додатки</p>
                         </div>
@@ -167,8 +190,32 @@
             <div class="container">
                 <h2 class="titles team">Наша команда</h2>
                 <ul class="team-cards">
-                    <li class="list cards"><img src="images/product-designer.jpg" alt="Фото Ігора Дем'яненко"
+                    <li class="list cards">
+                        <picture>
+                            <source
+                            srcset="./images/ihor_desktop.webp 1x, ./images/ihor_desktop@2x.webp 2x"
+                            media="(min-width:1200px)"
+                            type="image/webp"/>
+                        <source
+                        srcset="./images/ihor_desktop.jpg 1x, ./images/ihor_desktop@2x.jpg 2x"
+                        media="(min-width:1200px)"/>
+                        <source
+                        srcset="./images/ihor_tablet.webp 1x, ./images/ihor_tablet@2x.webp 2x"
+                        media="(min-width:768px)"
+                        type="image/webp"/>
+                        <source
+                        srcset="./images/ihor_tablet.jpg 1x, ./images/ihor_tablet@2x.jpg 2x"
+                        media="(min-width:768px)"/>
+                        <source
+                        srcset="./images/ihor_mobile.webp 1x, ./images/ihor_mobile@2x.webp 2x"
+                        media="(max-width:767px)"
+                        type="image/webp"/>
+                        <source
+                        srcset="./images/ihor_mobile.jpg 1x, ./images/ihor_mobile@2x.jpg 2x"
+                        media="(max-width:767px)"/>
+                        <img src="images/product-designer.jpg" alt="Фото Ігора Дем'яненко"
                             width="270" height="260" />
+                        </picture>
                         <div class="team-cards-secondary">
                             <h3 class="titles team-member">Ігор Дем'яненко</h3>
                             <p class="team-profession">Product Designer</p>

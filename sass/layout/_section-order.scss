@@ -1,13 +1,13 @@
 @media screen and (max-width:767px){
     .section-order {
         display: block;
-        margin-right: auto;
-        margin-left: auto;
-        max-width: 480px;
         padding-top: 118px;
         padding-bottom: 118px;
         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background-main_mobile.jpg");
-    background-color: var(--section-order-background-color);
+        background-size: 480px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-color: var(--section-order-background-color);
 }
 
     .section-order__title {
@@ -35,12 +35,12 @@
 @media screen and (min-width:768px){
     .section-order{
         display: block;
-        margin-right: auto;
-        margin-left: auto;
-        width: 768px;
         padding-top: 118px;
         padding-bottom: 118px;
         background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background-main_tablet.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
         background-color: var(--section-order-background-color);
     }
 
@@ -73,13 +73,12 @@
 
 .section-order {
     display: block;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 1600px;
     padding-top: 200px;
     padding-bottom: 200px;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/background-main_desktop.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     background-color: var(--section-order-background-color)
 }
 

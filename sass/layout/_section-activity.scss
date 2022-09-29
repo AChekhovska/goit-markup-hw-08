@@ -1,4 +1,18 @@
+@media screen and (max-width:767px){
+    .section-activity{
+        display: none;
+    }
+}
+
+@media screen and (min-width:768px){
+.section-activity{
+    display: none;
+}
+}
+
+@media screen and (min-width:1200px){
 .section-activity {
+    display: flex;
     padding-bottom: 94px;
 }
 
@@ -26,7 +40,9 @@
 }
 
 .overlay-activity {
-    @extend %alignment;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     width: 100%;
     color: var(--accent-text-color);
@@ -39,4 +55,5 @@
     overflow: auto;
     top: 224px;
     height: 70px;
+}
 }

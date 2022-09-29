@@ -3,44 +3,83 @@
     padding-bottom: 94px;
 }
 
-.cards {
-    background-color: var(--main-background-color);
-    flex-basis: calc((100% - 3 * 30px) / 4);
-}
+@media screen and (max-width:767px){
+    .team-cards {
+        display: block;
+        width: 100%;
+    }
 
-.team {
-    font-size: 36px;
+    .team{        
+    font-size: 28px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.18;
     text-align: center;
-    width: 264px;
-    margin-right: 450px;
-    margin-left: 450px;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    }
+
+    .cards{
+        display: block;
+        width: 100%;
+        background-color: var(--main-background-color);
+    }
+
+    .team-member {
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.19;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .team-profession {
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 1.19;
+                text-align: center;
+                margin-bottom: 16px;
+            }
 }
 
-.team-cards {
-    display: flex;
-    justify-content: space-between;
-    row-gap: 30px;
-}
 
-.team-cards-secondary {
-    padding: 30px;
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-}
 
-.team-member {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.19;
-    text-align: center;
-    margin-bottom: 10px;
-}
+// .cards {
+//     background-color: var(--main-background-color);
+//     flex-basis: calc((100% - 3 * 30px) / 4);
+// }
 
-.team-profession {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.19;
-    text-align: center;
-}
+// .team {
+//     font-size: 36px;
+//     font-weight: 700;
+//     line-height: 1.16;
+//     text-align: center;
+//     width: 264px;
+//     margin-right: 450px;
+//     margin-left: 450px;
+//     margin-bottom: 50px;
+// }
+
+// .team-cards {
+//     display: flex;
+//     justify-content: space-between;
+//     row-gap: 30px;
+// }
+
+// .team-cards-secondary {
+//     padding: 30px;
+//     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+// }
+
+// .team-member {
+//     font-size: 16px;
+//     font-weight: 500;
+//     line-height: 1.19;
+//     text-align: center;
+//     margin-bottom: 10px;
+// }
+
+// .team-profession {
+//     font-size: 16px;
+//     font-weight: 400;
+//     line-height: 1.19;
+//     text-align: center;
+// }
