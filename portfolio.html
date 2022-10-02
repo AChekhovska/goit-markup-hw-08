@@ -45,7 +45,38 @@
                         +38 096 111 11
                         11</a></li>
             </ul>
+            <button type="button" class="header__button js-open-menu">
+                <svg aria-label="Іконка меню" class="icon-menu">
+                    <use href="./images/sprite.svg#icon-menu"></use>
+                </svg>
+            </button>
         </div>
+        <div class="mobile-menu js-menu-container">
+            <div class="container mobile-menu__container">
+                <button class="mobile-menu__close-button js-close-menu">
+                    <svg aria-label="Хрестик закриття форми" class="icon-close" width="18" height="18">
+                        <use href="./images/sprite.svg#icon-close"></use>
+                    </svg>
+                </button>
+                <ul class="mobile-menu__navigation">
+                    <li class="mobile-menu__items list"><a href="./index.html"
+                            class="mobile-menu__chapter link">Студія</a></li>
+                    <li class="mobile-menu__items list"><a href="./portfolio.html"
+                            class="mobile-menu__chapter link">Портфоліо</a></li>
+                    <li class="mobile-menu__items list"><a href="#" class="mobile-menu__chapter link">Контакти</a></li>
+                </ul>
+                <ul class="mobile-menu__contacts">
+                    <li class="mobile-menu__items-phone list"><a href="tel:+380961111111" class="mobile-menu__contacts-phone link">+38 096 111 11
+                        11</a></li>
+                    <li class="mobile-menu__items-mail list"><a href="mailto:info@devstudio.com" class="mobile-menu__contacts-mail link">info@devstudio.com</a></li>
+                 <ul class="mobile-menu__networks-list">
+                    <li class="mobile-menu__networks list"><a href="#" class="mobile-menu__network-link link">Instagram</a></li>
+                    <li class="mobile-menu__networks list"><a href="#" class="mobile-menu__network-link link">Twitter</a></li>
+                    <li class="mobile-menu__networks list"><a href="#" class="mobile-menu__network-link link">Facebook</a></li>
+                    <li class="mobile-menu__networks list"><a href="#" class="mobile-menu__network-link link">LinkedIn</a></li>
+                 </ul>   
+                </div>
+            </div>
     </header>
 
     <main>
@@ -65,7 +96,7 @@
                     <li class="example list">
                         <a href="#" class="example-link link">
                             <div class="example-img">
-                                <img src="./images/web-site.jpg" alt="Сторінка веб-сайту" width="370" height="294">
+                                <img class="card-img" src="./images/web-site.jpg" alt="Сторінка веб-сайту" width="370" height="294">
                                 <p class="overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
                                     сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                                     приватну особу.</p>
@@ -79,7 +110,7 @@
                     <li class="example list">
                         <a href="#" class="example-link link">
                             <div class="example-img">
-                                <img src="./images/poster.jpg" alt="Баскетболісти" width="370" height="294">
+                                <img class="card-img" src="./images/poster.jpg" alt="Баскетболісти" width="370" height="294">
                                 <p class="overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
                                     сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                                     приватну особу.</p>
@@ -93,7 +124,7 @@
                     <li class="example list">
                         <a href="#" class="example-link link">
                             <div class="example-img">
-                                <img src="./images/restaurant.jpg" alt="Логотип ресторану" width="370" height="294">
+                                <img class="card-img" src="./images/restaurant.jpg" alt="Логотип ресторану" width="370" height="294">
                                 <p class="overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
                                     сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                                     приватну особу.</p>
@@ -107,7 +138,7 @@
                     <li class="example list">
                         <a href="#" class="example-link link">
                             <div class="example-img">
-                                <img src="./images/headphones.jpg" alt="Навушники" width="370" height="294">
+                                <img class="card-img" src="./images/headphones.jpg" alt="Навушники" width="370" height="294">
                                 <p class="overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
                                     сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                                     приватну особу.</p>
@@ -121,7 +152,7 @@
                     <li class="example list">
                         <a href="#" class="example-link link">
                             <div class="example-img">
-                                <img src="./images/boxes.jpg" alt="Коробки" width="370" height="294">
+                                <img class="card-img" src="./images/boxes.jpg" alt="Коробки" width="370" height="294">
                                 <p class="overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
                                     сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                                     приватну особу.</p>
@@ -135,7 +166,7 @@
                     <li class="example list">
                         <a href="#" class="example-link link">
                             <div class="example-img">
-                                <img src="./images/web-site-dark.jpg" alt="Сторінка веб-сайту" width="370" height="294">
+                                <img class="card-img" src="./images/web-site-dark.jpg" alt="Сторінка веб-сайту" width="370" height="294">
                                 <p class="overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
                                     сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                                     приватну особу.</p>
@@ -149,7 +180,7 @@
                     <li class="example list">
                         <a href="#" class="example-link link">
                             <div class="example-img">
-                                <img src="./images/magazine.jpg" alt="Сторінки журналу" width="370" height="294">
+                                <img class="card-img" src="./images/magazine.jpg" alt="Сторінки журналу" width="370" height="294">
                                 <p class="overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
                                     сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                                     приватну особу.</p>
@@ -163,7 +194,7 @@
                     <li class="example list">
                         <a href="#" class="example-link link">
                             <div class="example-img">
-                                <img src="./images/label.jpg" alt="Лейбл" width="370" height="294">
+                                <img class="card-img" src="./images/label.jpg" alt="Лейбл" width="370" height="294">
                                 <p class="overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
                                     сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                                     приватну особу.</p>
@@ -177,13 +208,12 @@
                     <li class="example list">
                         <a href="#" class="example-link link">
                             <div class="example-img">
-                                <img src="./images/notebook.jpg" alt="Чоловік з планшетом на екрані ноутбука"
-                                    width="370">
+                                <img class="card-img" src="./images/notebook.jpg" alt="Чоловік з планшетом на екрані ноутбука"
+                                    width="370" height="294">
                                 <p class="overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та
                                     сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи
                                     приватну особу.</p>
-                                height="294">
-                            </div>
+                                </div>
                             <div class="example-card">
                                 <h2 class="titles name-project">Growing business</h2>
                                 <p class="projects">Додаток</p>
@@ -263,6 +293,7 @@
             </div>
         </div>
     </footer>
+    <script src="./js/mobile-menu.js"></script>
 </body>
 
 </html>
